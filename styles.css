@@ -1,0 +1,38 @@
+body {
+    /* background-color: black;
+    color: white; */
+    width: 100vw;
+    height: 100vh;
+}
+
+.frame {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.timer-frame {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    border: 1px inset black;
+}
+
+.timer-box {
+    margin: 5%;
+    text-align: center;
+    font-size: 50px;
+    border: 1px inset red;
+}
+
+.button-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border: 1px inset green;
+}
+
+/* .start-button {} */
